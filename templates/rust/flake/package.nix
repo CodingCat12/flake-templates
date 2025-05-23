@@ -10,7 +10,7 @@
       (makeRustPlatform {
         inherit (toolchain) cargo rustc;
       }).buildRustPackage rec {
-        pname = "mcnix";
+        pname = "example";
         version = "0.1.0";
 
         nativeBuildInputs = [pkg-config];
